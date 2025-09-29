@@ -1,0 +1,347 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+ background-color: rgb(127, 163, 151);
+     
+}
+.navbar{
+    height: 40vh;
+    width:100%;
+    background-color: rgb(24, 21, 21);
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:space-around;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+a:hover{
+    color:chocolate;
+}
+
+.logo{
+   margin-top: 5px;
+   width: 100px;
+    height:100px ;
+   
+
+    
+}
+.kutu1{
+    width: 600px;
+    height: 300px;
+    background-image: url(img/kep1.jpg);
+    background-repeat: no-repeat;
+     background-color:antiquewhite;
+     display: inline-block;
+     vertical-align: top;
+     justify-content: center;
+     margin-left: 40px;
+     margin-top:10px;
+}
+.kutu2{
+    width: 600px;
+    height: 300px;
+   background-image: url(img/seksiyonelkepenk.jpg);
+    background-repeat: no-repeat;
+    background-color:antiquewhite;
+    display: inline-block;
+    vertical-align: top;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 10px;
+} 
+.kutu3{
+    width: 600px;
+    height: 300px;
+    background-image: url(img/alıcı\ kumandalı.jpg);
+    background-repeat: no-repeat;
+     background-color:antiquewhite;
+     display: inline-block;
+     vertical-align: top;
+     justify-content: center;
+     margin-left: 40px;
+     margin-top: 30px;
+}
+.kutu4{
+    width: 600px;
+    height: 300px;
+    background-image: url(img/cuppon.jpg);
+    background-repeat: no-repeat;
+    background-color:antiquewhite;
+    display: inline-block;
+    vertical-align: top;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 30px;
+} 
+.kutu5{
+    width: 600px;
+    height: 300px;
+    background-image: url(img/seksiyonelkepenk\ motor\ ve\ sürücü.jpg);
+    background-repeat: no-repeat;
+     background-color:antiquewhite;
+     display: inline-block;
+     vertical-align: top;
+     justify-content: center;
+     margin-left: 40px;
+     margin-top: 30px;
+}
+.kutu6{
+    width: 600px;
+    height: 300px;
+    background-image: url(img/zincirlimotor.jpg);
+    background-repeat: no-repeat;
+    background-color:antiquewhite;
+    display: inline-block;
+    vertical-align: top;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 30px;
+} 
+.kutu7{
+    width: 600px;
+    height: 300px;
+    background-image: url(img/deliklilamel.jpg);
+    background-repeat: no-repeat;
+     background-color:antiquewhite;
+     display: inline-block;
+     vertical-align: top;
+     justify-content: center;
+     margin-left: 40px;
+     margin-top: 30px;
+}
+.kutu8{
+    width: 600px;
+    height: 300px;
+    background-image: url(img/mobil.jpg);
+    background-repeat: no-repeat;
+    background-color:antiquewhite;
+    display: inline-block;
+    vertical-align: top;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 30px;
+} 
+ h1{
+    margin-left: 320px;
+    font-size: 20px;
+    color:black;
+    margin-top: 100px;
+    
+
+}
+.alan p{
+    font-size: 30px;
+    
+    margin-top:30px;
+    padding-left: 80px;
+    justify-content: center;
+}
+
+
+
+.sosyal{
+    margin-top: 10px;
+ margin-left: 600px;
+  
+ 
+  
+    
+}
+.tel p{
+    margin-top: 20px;
+     padding-left:880px;
+    font-size: 30px;
+    
+}
+
+.tsk p{
+    padding-top: 80px;
+    font-size: 30px;
+    text-align:center;
+}
+
+.irt{
+    width:300px ;
+    height: 200px;
+    background-color:rgb(127, 163, 151);
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+@media screen and (max-width:700px) {
+    .navbar{
+        height: 60vh;
+        width:100%;
+        background-color: rgb(24, 21, 21);
+        color: whitesmoke;
+        display: flex;
+        align-items: center;
+        flex-direction:column;
+        justify-content:space-around;
+    }
+    a{
+        text-decoration: none;
+        list-style: none;
+        color:whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight:normal;
+    }
+    a:hover{
+        color:chocolate;
+    }
+    
+    .logo{
+    
+        margin-top: 0;
+        height:90px ;
+        width: 90px;
+    }
+}
+    @media screen and (max-width:700px) {
+        .kutu1{
+            width: 300px;
+            height: 400px;
+           background-image: url(img/kep1.jpg);
+            background-repeat: no-repeat;
+             background-color:antiquewhite;
+             display:inline-block;
+             display: flex;
+             justify-content: center;
+             
+            
+             vertical-align:top;
+            
+             margin-left:50px;
+             margin-top: 1px;
+        }
+        .kutu2{
+            width: 300px;
+            height: 400px;
+            background-image: url(img/seksiyonelkepenk.jpg);
+            background-repeat: no-repeat;
+            background-color:antiquewhite;
+            display: inline-block;
+            display: flex;
+            vertical-align: top;
+            justify-content: center;
+            margin-left: 50px;
+            margin-top: 1px;
+        } 
+        .kutu3{
+            width: 300px;
+            height: 400px;
+            background-image: url(img/alıcı\ kumandalı.jpg);
+            background-repeat: no-repeat;
+             background-color:antiquewhite;
+             display: inline-block;
+             display: flex;
+             vertical-align: top;
+             justify-content: center;
+             margin-left: 50px;
+             margin-top: 1px;
+        }
+        .kutu4{
+            width: 300px;
+            height: 400px;
+            background-image: url(img/cuppon.jpg);
+            background-repeat: no-repeat;
+            background-color:antiquewhite;
+            display: inline-block;
+            display: flex;
+            vertical-align: top;
+            justify-content: center;
+            margin-left: 50px;
+            margin-top: 1px;
+        } 
+        .kutu5{
+            width: 300px;
+            height: 400px;
+            background-image: url(img/seksiyonelkepenk\ motor\ ve\ sürücü.jpg);
+            background-repeat: no-repeat;
+             background-color:antiquewhite;
+             display: inline-block;
+             display: flex;
+             vertical-align: top;
+             justify-content: center;
+             margin-left: 50px;
+             margin-top: 1px;
+        }
+        .kutu6{
+            width: 300px;
+            height: 400px;
+            background-image: url(img/zincirlimotor.jpg);
+            background-repeat: no-repeat;
+            background-color:antiquewhite;
+            display: inline-block;
+            display: flex;
+            vertical-align: top;
+            justify-content: center;
+            margin-left:50px;
+            margin-top: 1px;
+        } 
+        .kutu7{
+            width: 300px;
+            height: 400px;
+            background-image: url(img/deliklilamel.jpg);
+            background-repeat: no-repeat;
+             background-color:antiquewhite;
+             display: inline-block;
+             display: flex;
+             vertical-align: top;
+             justify-content: center;
+             margin-left:50px;
+             margin-top: 1px;
+        }
+        .kutu8{
+            width: 300px;
+            height: 400px;
+            background-image: url(img/mobil.jpg);
+            background-repeat: no-repeat;
+            background-color:antiquewhite;
+            display: inline-block;
+            display: flex;
+            vertical-align: top;
+            justify-content: center;
+            margin-left: 50px;
+            margin-top: 1px;
+        } 
+         h1{
+          text-align:center  ;
+          margin-left: 5px;
+          margin-top: 310px;
+            font-size: 16px;
+            color:black;
+           
+   
+    }
+    .sosyal{
+        margin-top: 10px;
+     margin-left: 150px;
+}
+.tel p{
+    margin-top: 20px;
+     padding-left:150px;
+    font-size: 30px;
+    }
+    .irt{
+        width:300px ;
+        height: 200px;
+        background-color:rgb(127, 163, 151);
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+ }
